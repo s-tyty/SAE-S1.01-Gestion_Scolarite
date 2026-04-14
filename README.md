@@ -4,7 +4,7 @@ This project was developed as part of the **SAÉ S1.01: Implementation of a Clie
 
 The objective is to develop a **C language application** to manage the academic records of a cohort of Computer Science students (Bachelor of Technology) using a command-line interpreter.
 
-## 📋 Features
+## Features
 
 The program functions as an interpreter that reads commands from standard input and outputs results to standard output. It complies with the official academic rules of the degree (module validation, compensation, juries, and progression to the next year).
 
@@ -15,7 +15,7 @@ The application manages:
 * **Juries**: Automatic validation for odd semesters and deliberation logic for even semesters (pass or fail).
 * **Reports**: Generating annual statistical summaries for the cohort.
 
-## 🛠️ Supported Commands
+## Supported Commands
 
 The project interprets the following 9 commands.
 *> Note: The keywords must be typed in French as specified by the project requirements.*
@@ -32,15 +32,9 @@ The project interprets the following 9 commands.
 | `BILAN` | `BILAN <Year>` | Displays the statistical report for a specific year (1, 2, or 3). |
 | `EXIT` | `EXIT` | Terminates the program. |
 
-## 💻 Technical Specifications
+## Technical Specifications
 
 * **Language**: C
 * **Data Structure**: Usage of `struct` for students and promotion management to optimize memory usage.
 * **Constraints**: Supports up to 100 students; First/Last names limited to 30 characters.
 * **Precision**: Grades are stored as `float` but displayed with one decimal place truncated (no rounding).
-
-## 🚀 Installation and Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/student-management-but.git](https://github.com/your-username/student-management-but.git)
